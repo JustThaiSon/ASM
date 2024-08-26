@@ -1,0 +1,29 @@
+﻿@model ASM.ViewModels.CategoryViewModels
+
+@{
+    ViewData["Title"] = "Deltails";
+}
+
+<h1>Deltails</h1>
+
+<div>
+    <h4>CategoryViewModels</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NameProduct)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NameProduct)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CategoryName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CategoryName)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a class="btn btn-warning" asp-action="Update" asp-route-id="@Model?.CategoryId">Update</a> |
+</div>

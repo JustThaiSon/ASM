@@ -1,0 +1,51 @@
+﻿@model IEnumerable<ASM.ViewModels.AppUserViewModel>
+
+@{
+    ViewData["Title"] = "GetUser";
+}
+
+<div class="container-fluid">
+    <h1 class="mt-4">Danh Sách Customer</h1>
+    <ol class="breadcrumb mb-4">
+        <li class="breadcrumb-item"><a href="/">Trang chủ</a></li>
+        <li class="breadcrumb-item active">Danh Sách Customer</li>
+    </ol>
+    <div class="card mb-4">
+        <div class="card-header">
+            <a class="btn btn-success" asp-action="Create" asp-controller="Customer">Tạo mới người dùng</a>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.First().Name)</th>
+                    <th>@Html.DisplayNameFor(model => model.First().UserName)</th>
+                    <th>@Html.DisplayNameFor(model => model.First().Email)</th>
+                    <th>@Html.DisplayNameFor(model => model.First().Gender)</th>
+                    <th>@Html.DisplayNameFor(model => model.First().Address)</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                        <td>@Html.DisplayFor(modelItem => item.UserName)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Gender)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Address)</td>
+                        <td>
+                            <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.UserId">Edit</a> |
+                            <a class="btn btn-primary" asp-action="DetailsUser" asp-route-id="@item.UserId">Details</a> |
+                            <form asp-action="DeleteUser" asp-controller="Customer" method="post" style="display:inline;">
+                                <input type="hidden" name="userId" value="@item.UserId" />
+                                <button type="submit" class="btn btn-danger">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

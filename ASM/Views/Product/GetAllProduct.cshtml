@@ -1,0 +1,163 @@
+﻿@model IEnumerable<ASM.ViewModels.ProductViewModels>
+
+@{
+	ViewData["Title"] = "GetAllProduct";
+}
+
+<div class="container-fluid">
+	<h1 class="mt-4">Danh Sách Product</h1>
+	<ol class="breadcrumb mb-4">
+	</ol>
+	<div class="row mb-4">
+		<div class="col-md-6">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item active">List Product</li>
+			</ol>
+		</div>
+		<div class="col-md-3 d-flex justify-content-end">
+			<form asp-action="GetAllProduct" asp-controller="Product" method="get" class="form-inline">
+				<select name="Categories" class="form-control" onchange="this.form.submit()">
+					<option value="">All Categories</option>
+					@foreach (var category in ViewBag.Categories)
+					{
+						<option value="@category.CategoryName">@category.CategoryName</option>
+					}
+				</select>
+			</form>
+		</div>
+
+		<div class="col-md-3 d-flex justify-content-end">
+			<form asp-action="GetAllProduct" asp-controller="Product" method="get" class="form-inline">
+				<div class="input-group">
+					<input type="text" name="KeyWord" value="@ViewBag.KeyWord" class="form-control" placeholder="Nhập tên Product...">
+					<div class="input-group-append">
+						<button type="submit" class="btn btn-primary ms-3">Tìm kiếm</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="card mb-4" >
+		<div class="card-header">
+			<a class="btn btn-success" asp-action="Create" asp-controller="Product">Tạo mới Product</a>
+		</div>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>
+						@Html.DisplayNameFor(model => model.NameProduct)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.ImgUrl)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.Description)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.CachDung)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.LuuY)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.TenThuongHieu)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.Hsd)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.TenNhaSanXuat)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.Price)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.ThongTinThanhPhan)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.CongDungThuoc)
+					</th>
+					<th>
+						@Html.DisplayNameFor(model => model.CategoryName)
+					</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var item in Model)
+				{
+					<tr>
+						<td>
+							@Html.DisplayFor(modelItem => item.NameProduct)
+						</td>
+						<td>
+							<img src="~/images/@item.ImgUrl" style="width:100px; height:auto;" />
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.Description)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.CachDung)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.LuuY)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.TenThuongHieu)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.Hsd)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.TenNhaSanXuat)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.Price)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.ThongTinThanhPhan)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.CongDungThuoc)
+						</td>
+						<td>
+							@Html.DisplayFor(modelItem => item.CategoryName)
+						</td>
+						<td class="row">
+							<div class="d-flex justify-content-around">
+								<a class="btn btn-warning" asp-action="Update" asp-route-id="@item.ProductId">Update</a>
+								<a class="btn btn-primary" asp-action="Details" asp-route-id="@item.ProductId">Details</a>
+								<a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.ProductId">Delete</a>
+							</div>
+						</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+
+	</div>
+</div>
+<nav aria-label="Page navigation" class="d-flex justify-content-center">
+	<ul class="pagination">
+		@if (ViewBag.CurrentPage > 1)
+		{
+			<li class="page-item">
+				<a class="page-link" href="@Url.Action("GetAllProduct", new { page = ViewBag.CurrentPage - 1, pageSize = ViewBag.PageSize })">&laquo; Previous</a>
+			</li>
+		}
+
+		@for (int i = 1; i <= ViewBag.TotalPages; i++)
+		{
+			<li class="page-item @(ViewBag.CurrentPage == i ? "active" : "")">
+				<a class="page-link" href="@Url.Action("GetAllProduct", new { page = i, pageSize = ViewBag.PageSize })">@i</a>
+			</li>
+		}
+
+		@if (ViewBag.CurrentPage < ViewBag.TotalPages)
+		{
+			<li class="page-item">
+				<a class="page-link" href="@Url.Action("GetAllProduct", new { page = ViewBag.CurrentPage + 1, pageSize = ViewBag.PageSize })">Next &raquo;</a>
+			</li>
+		}
+	</ul>
+</nav>

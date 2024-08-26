@@ -1,0 +1,64 @@
+﻿@model IEnumerable<ASM.Entities.CongDung>
+
+@{
+	ViewData["Title"] = "GetAllCongDung";
+}
+<div class="container-fluid">
+<h1 class="mt-4">Details</h1>
+<ol class="breadcrumb mb-4">
+	<li class="breadcrumb-item active">Danh Sách Product</li>
+</ol>
+<div class="card mb-4">
+	<div class="card-header">
+		<a class="btn btn-success" asp-action="CreateCongDung" asp-controller="Product">Tạo mới Product</a>
+	</div>
+<table class="table">
+	<thead>
+		<tr>
+			<th>
+				@Html.DisplayNameFor(model => model.CongDungThuoc)
+			</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>
+					@Html.DisplayFor(modelItem => item.CongDungThuoc)
+				</td>
+				<td>
+					<a class="btn btn-warning" asp-action="UpdateCongDung" asp-route-id="@item.CongDungId">Edit</a> |
+					<a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.CongDungId">Delete</a>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>
+</div>
+</div>
+<nav aria-label="Page navigation" class="d-flex justify-content-center">
+	<ul class="pagination">
+		@if (ViewBag.CurrentPage > 1)
+		{
+			<li class="page-item">
+				<a class="page-link" href="@Url.Action("GetAllCongDung", new { page = ViewBag.CurrentPage - 1, pageSize = ViewBag.PageSize })">&laquo; Previous</a>
+			</li>
+		}
+
+		@for (int i = 1; i <= ViewBag.TotalPages; i++)
+		{
+			<li class="page-item @(ViewBag.CurrentPage == i ? "active" : "")">
+				<a class="page-link" href="@Url.Action("GetAllCongDung", new { page = i, pageSize = ViewBag.PageSize })">@i</a>
+			</li>
+		}
+
+		@if (ViewBag.CurrentPage < ViewBag.TotalPages)
+		{
+			<li class="page-item">
+				<a class="page-link" href="@Url.Action("GetAllCongDung", new { page = ViewBag.CurrentPage + 1, pageSize = ViewBag.PageSize })">Next &raquo;</a>
+			</li>
+		}
+	</ul>
+</nav>

@@ -1,0 +1,86 @@
+﻿@model IEnumerable<ASM.ViewModels.CategoryViewModels>
+
+@{
+	ViewData["Title"] = "GetAll";
+}
+<style>
+
+</style>
+<div class="container-fluid ">
+
+	<h1 class="mt-4">Create Customer</h1>
+	<div class="row mb-4">
+		<div class="col-md-8">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a asp-action="Create" asp-controller="Categories">Create Categories</a></li>
+				<li class="breadcrumb-item active">List Categories</li>
+			</ol>
+		</div>
+		<div class="col-md-4 d-flex justify-content-end">
+			<form asp-action="GetAll" asp-controller="Categories" method="get" class="form-inline">
+				<div class="input-group">
+					<input type="text" name="KeyWord" value="@ViewBag.KeyWord" class="form-control" placeholder="Nhập tên sản phẩm...">
+					<div class="input-group-append">
+						<button type="submit" class="btn btn-primary ms-3">Tìm kiếm</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<table class="table table-striped table-bordered table-hover table-borderless" style="height:300px">
+	<thead>
+		<tr>
+			<th>
+				@Html.DisplayNameFor(model => model.CategoryName)
+			</th>
+			<th>
+				@Html.DisplayNameFor(model => model.NameProduct)
+			</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td class="px-3 py-3">
+					@Html.DisplayFor(modelItem => item.CategoryName)
+				</td>
+					<td class="px-3 py-3">
+					@Html.DisplayFor(modelItem => item.NameProduct)
+				</td>
+					<td class="px-3 py-3">
+					<a class="btn btn-warning" asp-action="Update" asp-route-id="@item.CategoryId">Update</a> |
+					<a class="btn btn-primary" asp-action="Deltails" asp-route-id="@item.CategoryId">Details</a> |
+					<a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.CategoryId">Delete</a>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>
+</div>
+<nav aria-label="Page navigation" class="d-flex justify-content-center">
+	<ul class="pagination">
+		@if (ViewBag.CurrentPage > 1)
+		{
+			<li class="page-item">
+				<a class="page-link" href="@Url.Action("GetAll", new { page = ViewBag.CurrentPage - 1, pageSize = ViewBag.PageSize })">&laquo; Previous</a>
+			</li>
+		}
+
+		@for (int i = 1; i <= ViewBag.TotalPages; i++)
+		{
+			<li class="page-item @(ViewBag.CurrentPage == i ? "active" : "")">
+				<a class="page-link" href="@Url.Action("GetAll", new { page = i, pageSize = ViewBag.PageSize })">@i</a>
+			</li>
+		}
+
+		@if (ViewBag.CurrentPage < ViewBag.TotalPages)
+		{
+			<li class="page-item">
+				<a class="page-link" href="@Url.Action("GetAll", new { page = ViewBag.CurrentPage + 1, pageSize = ViewBag.PageSize })">Next &raquo;</a>
+			</li>
+		}
+	</ul>
+</nav>

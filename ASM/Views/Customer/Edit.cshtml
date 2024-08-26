@@ -1,0 +1,61 @@
+﻿@using ASM.Entities.Enum
+@model ASM.ViewModels.AppUserViewModel
+
+@{
+	ViewData["Title"] = "Edit";
+}
+
+<div class="container-fluid">
+	<h1 class="mt-4">Danh Sách Customer</h1>
+	<ol class="breadcrumb mb-4">
+		<li class="breadcrumb-item"><a asp-action="GetUser" asp-controller="Customer">Danh Sách AppUser</a></li>
+	</ol>
+	<div class="card mb-4">
+		<hr />
+		<div class="row">
+			<div class="col-md-4">
+				<form asp-action="Edit">
+					<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+					<input type="hidden" asp-for="UserId" />
+					<div class="form-group">
+						<label asp-for="Name" class="control-label"></label>
+						<input asp-for="Name" class="form-control" />
+						<span asp-validation-for="Name" class="text-danger"></span>
+					</div>
+					<div class="form-group">
+						<label asp-for="UserName" class="control-label"></label>
+						<input asp-for="UserName" class="form-control" />
+						<span asp-validation-for="UserName" class="text-danger"></span>
+					</div>
+					<div class="form-group">
+						<label asp-for="Email" class="control-label"></label>
+						<input asp-for="Email" class="form-control" />
+						<span asp-validation-for="Email" class="text-danger"></span>
+					</div>
+					<div class="form-group">
+						<select asp-for="Gender" class="form-control">
+							<option value="">Select Gender</option>
+							<option value="@GenderMenu.Nam">Nam</option>
+							<option value="@GenderMenu.Nữ">Nữ</option>
+							<option value="@GenderMenu.Khác">Khác</option>
+						</select>
+						<span asp-validation-for="Gender" class="text-danger"></span>
+					</div>
+					<div class="form-group">
+						<label asp-for="Address" class="control-label"></label>
+						<input asp-for="Address" class="form-control" />
+						<span asp-validation-for="Address" class="text-danger"></span>
+					</div>
+					<div class="form-group">
+						<input type="submit" value="Save" class="btn btn-primary" />
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<div>
+			<a asp-action="Index">Back to List</a>
+		</div>
+
+	</div>
+</div>

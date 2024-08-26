@@ -1,0 +1,67 @@
+﻿@model ASM.Entities.Customer
+
+@{
+	ViewData["Title"] = "Details";
+}
+
+<div class="container-fluid">
+	<h1 class="mt-4">Danh Sách Customer</h1>
+	<ol class="breadcrumb mb-4">
+		<li class="breadcrumb-item"><a asp-action="GetAllCustomer" asp-controller="Customer">List Customer</a></li>
+		<li class="breadcrumb-item active">Chi Tiết Customer</li>
+	</ol>
+	<div class="card mb-4">
+		<div>
+			<hr />
+			<dl class="row d-flex justify-content-center">
+				<dt class="col-sm-2">
+					@Html.DisplayNameFor(model => model.UserName)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.UserName)
+				</dd>
+				<dt class="col-sm-2">
+					@Html.DisplayNameFor(model => model.PassWord)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.PassWord)
+				</dd>
+				<dt class="col-sm-2">
+					@Html.DisplayNameFor(model => model.FullName)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.FullName)
+				</dd>
+				<dt class="col-sm-2">
+					@Html.DisplayNameFor(model => model.Email)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.Email)
+				</dd>
+				<dt class="col-sm-2">
+					@Html.DisplayNameFor(model => model.Address)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.Address)
+				</dd>
+				<dt class="col-sm-2">
+					@Html.DisplayNameFor(model => model.Gender)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.Gender)
+				</dd>
+				<dt class="col-sm-2">
+					@Html.DisplayNameFor(model => model.DateOfBirth)
+				</dt>
+				<dd class="col-sm-10">
+					@Html.DisplayFor(model => model.DateOfBirth)
+				</dd>
+			</dl>
+		</div>
+		<div>
+			<a class="btn btn-outline-info" asp-action="Edit" asp-route-id="@Model?.CustomerId">Edit</a> |
+			<a class="btn btn-danger" asp-action="Delete" asp-route-id="@Model?.CustomerId">Delete</a>
+
+		</div>
+	</div>
+</div>

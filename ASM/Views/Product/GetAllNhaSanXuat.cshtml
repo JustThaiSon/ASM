@@ -1,0 +1,81 @@
+﻿@model IEnumerable<ASM.Entities.NhaSanXuat>
+
+@{
+	ViewData["Title"] = "GetAllNhaSanXuat";
+}
+
+<div class="container-fluid ">
+
+	<h1 class="mt-4">Get All Nhà Sản Xuất</h1>
+	<div class="row mb-4">
+		<div class="col-md-8">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a asp-action="CreateNhaSanXuat" asp-controller="Product">Create Nhà Sản Xuất</a></li>
+				<li class="breadcrumb-item active">List Categories</li>
+			</ol>
+		</div>
+		<div class="col-md-4 d-flex justify-content-end">
+			<form asp-action="GetAllNhaSanXuat" asp-controller="Product" method="get" class="form-inline">
+				<div class="input-group">
+					<input type="text" name="KeyWord" value="@ViewBag.KeyWord" class="form-control" placeholder="Nhập tên Nhà Sản Xuất...">
+					<div class="input-group-append">
+						<button type="submit" class="btn btn-primary ms-3">Tìm kiếm</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="card mb-4">
+	<div class="card-header">
+		<a class="btn btn-success" asp-action="CreateNhaSanXuat" asp-controller="Product">Tạo mới Nhà Sản Xuất</a>
+	</div>
+	<table class="table table-striped table-bordered table-hover table-borderless" style="height:300px">
+		<thead>
+			<tr>
+				<th>
+					@Html.DisplayNameFor(model => model.TenNhaSanXuat)
+				</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in Model)
+			{
+				<tr>
+					<td>
+						@Html.DisplayFor(modelItem => item.TenNhaSanXuat)
+					</td>
+					<td>
+						<a class="btn btn-warning" asp-action="UpdateNhaSanXuat" asp-route-id="@item.NhaSanXuatId">Update</a> |
+						<a class="btn btn-danger" asp-action="DeleteNhaSanXuat" asp-route-id="@item.NhaSanXuatId">Delete</a>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+</div>
+</div>
+<nav aria-label="Page navigation" class="d-flex justify-content-center">
+	<ul class="pagination">
+		@if (ViewBag.CurrentPage > 1)
+		{
+			<li class="page-item">
+				<a class="page-link" href="@Url.Action("GetAllNhaSanXuat", new { page = ViewBag.CurrentPage - 1, pageSize = ViewBag.PageSize })">&laquo; Previous</a>
+			</li>
+		}
+
+		@for (int i = 1; i <= ViewBag.TotalPages; i++)
+		{
+			<li class="page-item @(ViewBag.CurrentPage == i ? "active" : "")">
+				<a class="page-link" href="@Url.Action("GetAllNhaSanXuat", new { page = i, pageSize = ViewBag.PageSize })">@i</a>
+			</li>
+		}
+
+		@if (ViewBag.CurrentPage < ViewBag.TotalPages)
+		{
+			<li class="page-item">
+				<a class="page-link" href="@Url.Action("GetAllNhaSanXuat", new { page = ViewBag.CurrentPage + 1, pageSize = ViewBag.PageSize })">Next &raquo;</a>
+			</li>
+		}
+	</ul>
+</nav>

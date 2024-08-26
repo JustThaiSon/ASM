@@ -1,0 +1,597 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\.nuget\\packages\\bootstrap\\5.3.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ASM.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ASM.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\assets\\demo\\chart-area-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\chart-area-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\assets\\demo\\chart-bar-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\chart-bar-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\assets\\demo\\chart-pie-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\chart-pie-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\assets\\demo\\datatables-demo.js",
+      "PackagePath": "staticwebassets\\assets\\demo\\datatables-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\assets\\img\\error-404-monochrome.svg",
+      "PackagePath": "staticwebassets\\assets\\img\\error-404-monochrome.svg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\home\\css\\animate.css",
+      "PackagePath": "staticwebassets\\home\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\home\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\home\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\home\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\home\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\home\\css\\main.css",
+      "PackagePath": "staticwebassets\\home\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\home\\css\\prettyPhoto.css",
+      "PackagePath": "staticwebassets\\home\\css\\prettyPhoto.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\home\\css\\price-range.css",
+      "PackagePath": "staticwebassets\\home\\css\\price-range.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\home\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\home\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\home\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\home\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\home\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\home\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\home\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\home\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\home\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\home\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\home\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\home\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\home\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\home\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\home\\js\\contact.js",
+      "PackagePath": "staticwebassets\\home\\js\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\home\\js\\gmaps.js",
+      "PackagePath": "staticwebassets\\home\\js\\gmaps.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\home\\js\\html5shiv.js",
+      "PackagePath": "staticwebassets\\home\\js\\html5shiv.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\home\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\home\\js\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\home\\js\\jquery.prettyPhoto.js",
+      "PackagePath": "staticwebassets\\home\\js\\jquery.prettyPhoto.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\home\\js\\jquery.scrollUp.min.js",
+      "PackagePath": "staticwebassets\\home\\js\\jquery.scrollUp.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\home\\js\\main.js",
+      "PackagePath": "staticwebassets\\home\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\home\\js\\price-range.js",
+      "PackagePath": "staticwebassets\\home\\js\\price-range.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\images\\06c1c175-10db-464e-bc1b-7313100df1c4_00500955_tra_nhan_sam_ko_ginseng_royal_tea_10_hop_x_10_goi_2156_62e3_large_100c138c8c.webp",
+      "PackagePath": "staticwebassets\\images\\06c1c175-10db-464e-bc1b-7313100df1c4_00500955_tra_nhan_sam_ko_ginseng_royal_tea_10_hop_x_10_goi_2156_62e3_large_100c138c8c.webp"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\images\\0ebb5f3b-ac0b-4293-a149-994d19f866af_AvatarChaile.png",
+      "PackagePath": "staticwebassets\\images\\0ebb5f3b-ac0b-4293-a149-994d19f866af_AvatarChaile.png"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\images\\1468a01b-f3b6-4fce-89fd-db9ea1f9ea52_00015009_telfor_60_2x10_9025_605c_large_fcc434cbcf.webp",
+      "PackagePath": "staticwebassets\\images\\1468a01b-f3b6-4fce-89fd-db9ea1f9ea52_00015009_telfor_60_2x10_9025_605c_large_fcc434cbcf.webp"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\images\\186c1613-5189-4277-a093-541b67afe217_Anh1.jpg",
+      "PackagePath": "staticwebassets\\images\\186c1613-5189-4277-a093-541b67afe217_Anh1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\images\\18ea4c45-930d-4637-8143-bfffb220a609_DSC_03594_d9d39b4d3f.webp",
+      "PackagePath": "staticwebassets\\images\\18ea4c45-930d-4637-8143-bfffb220a609_DSC_03594_d9d39b4d3f.webp"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\images\\87fa2504-e75c-46e6-9bb0-6ae213825838_DSC_03594_d9d39b4d3f.webp",
+      "PackagePath": "staticwebassets\\images\\87fa2504-e75c-46e6-9bb0-6ae213825838_DSC_03594_d9d39b4d3f.webp"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\images\\b7d4be89-6ac5-4cf8-971b-42cb474ef617_00015009_telfor_60_2x10_9025_605c_large_fcc434cbcf.webp",
+      "PackagePath": "staticwebassets\\images\\b7d4be89-6ac5-4cf8-971b-42cb474ef617_00015009_telfor_60_2x10_9025_605c_large_fcc434cbcf.webp"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\images\\d4c994d6-68d6-44d0-a26e-f83492650134__MG_9691.jpg",
+      "PackagePath": "staticwebassets\\images\\d4c994d6-68d6-44d0-a26e-f83492650134__MG_9691.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\images\\d894774b-3207-412b-a759-0040e19626c7_00033431_hong_sam_co_dac_hongsamjin_everystick_ex_30_goi_x_10g_7158_63ad_large_e84b8401c7.webp",
+      "PackagePath": "staticwebassets\\images\\d894774b-3207-412b-a759-0040e19626c7_00033431_hong_sam_co_dac_hongsamjin_everystick_ex_30_goi_x_10g_7158_63ad_large_e84b8401c7.webp"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\images\\d8e44b73-8c88-4459-9e79-e44f9ffe9c18_00500955_tra_nhan_sam_ko_ginseng_royal_tea_10_hop_x_10_goi_2156_62e3_large_100c138c8c.webp",
+      "PackagePath": "staticwebassets\\images\\d8e44b73-8c88-4459-9e79-e44f9ffe9c18_00500955_tra_nhan_sam_ko_ginseng_royal_tea_10_hop_x_10_goi_2156_62e3_large_100c138c8c.webp"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\images\\e53faefb-f717-4624-befb-02d8ebce8e8d_Avatar.png",
+      "PackagePath": "staticwebassets\\images\\e53faefb-f717-4624-befb-02d8ebce8e8d_Avatar.png"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\images\\e6e66223-2a05-48de-84c1-f7f559906039__MG_9705.jpg",
+      "PackagePath": "staticwebassets\\images\\e6e66223-2a05-48de-84c1-f7f559906039__MG_9705.jpg"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\js\\datatables-simple-demo.js",
+      "PackagePath": "staticwebassets\\js\\datatables-simple-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\admin\\Desktop\\Học FPL\\C#4\\ASM_C#4_2\\ASM\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ASM.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ASM.props",
+      "PackagePath": "build\\ASM.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ASM.props",
+      "PackagePath": "buildMultiTargeting\\ASM.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ASM.props",
+      "PackagePath": "buildTransitive\\ASM.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

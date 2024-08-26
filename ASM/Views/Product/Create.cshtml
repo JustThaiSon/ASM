@@ -1,0 +1,115 @@
+﻿@model ASM.ViewModels.CreateProductViewModel
+
+@{
+	ViewData["Title"] = "Create";
+}
+
+<div class="container-fluid">
+	<h1 class="mt-4">GetAllProduct</h1>
+	<ol class="breadcrumb mb-4">
+		<li class="breadcrumb-item"><a asp-action="GetAllProduct" asp-controller="Product">List Customer</a></li>
+		<li class="breadcrumb-item active">Back to list</li>
+	</ol>
+	<hr />
+	<div class="row">
+		<div class="col-md-4">
+			<form asp-action="Create" enctype="multipart/form-data">
+				<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+				<div class="form-group">
+					<label asp-for="NameProduct" class="control-label"></label>
+					<input asp-for="NameProduct" class="form-control" />
+					<span asp-validation-for="NameProduct" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="Photo" class="control-label">Product Image</label>
+					<input asp-for="Photo" type="file" class="form-control" />
+					<span asp-validation-for="Photo" class="text-danger"></span>
+				</div>
+
+				<div class="form-group">
+					<label asp-for="Description" class="control-label"></label>
+					<input asp-for="Description" class="form-control" />
+					<span asp-validation-for="Description" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="CachDung" class="control-label"></label>
+					<input asp-for="CachDung" class="form-control" />
+					<span asp-validation-for="CachDung" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="LuuY" class="control-label"></label>
+					<input asp-for="LuuY" class="form-control" />
+					<span asp-validation-for="LuuY" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="ThuongHieu" class="control-label"></label>
+					<select asp-for="ThuongHieu" class="form-control">
+						@foreach (var th in ViewBag.ThuongHieu)
+						{
+							<option value="@th.TenThuongHieu">@th.TenThuongHieu</option>
+						}
+					</select>
+					<span asp-validation-for="ThuongHieu" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="Hsd" class="control-label"></label>
+					<input asp-for="Hsd" class="form-control" />
+					<span asp-validation-for="Hsd" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="MhaSanXuat" class="control-label"></label>
+					<select asp-for="MhaSanXuat" class="form-control">
+						@foreach (var nsx in ViewBag.NhaSanXuat)
+						{
+							<option value="@nsx.TenNhaSanXuat">@nsx.TenNhaSanXuat</option>
+						}
+					</select>
+					<span asp-validation-for="MhaSanXuat" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="Price" class="control-label"></label>
+					<input asp-for="Price" class="form-control" min="0" />
+					<span asp-validation-for="Price" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="ThongTinThanhPhan" class="control-label"></label>
+					<input asp-for="ThongTinThanhPhan" class="form-control" />
+					<span asp-validation-for="ThongTinThanhPhan" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="CongDungThuoc" class="control-label"></label>
+					<select asp-for="CongDungThuoc" class="form-control">
+						@foreach (var cd in ViewBag.CongDung)
+						{
+							<option value="@cd.CongDungThuoc">@cd.CongDungThuoc</option>
+						}
+					</select>
+					<span asp-validation-for="CongDungThuoc" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<label asp-for="CategoryName" class="control-label"></label>
+					<select asp-for="CategoryName" class="form-control">
+						@foreach (var cd in ViewBag.Categories)
+						{
+							<option value="@cd.CategoryName">@cd.CategoryName</option>
+						}
+					</select>
+					<span asp-validation-for="CategoryName" class="text-danger"></span>
+				</div>
+				<div class="form-group">
+					<input type="submit" value="Create" class="btn btn-primary" />
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<div>
+		<a asp-action="Index">Back to List</a>
+	</div>
+
+	@section Scripts {
+		@{
+			await Html.RenderPartialAsync("_ValidationScriptsPartial");
+		}
+	}
+</div>

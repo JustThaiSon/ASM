@@ -1,0 +1,39 @@
+﻿@model ASM.Entities.CongDung
+
+@{
+    ViewData["Title"] = "UpdateCongDung";
+}
+
+<div class="container-fluid">
+    <h1 class="mt-4">Get Thương Hiệu</h1>
+    <ol class="breadcrumb mb-4">
+    </ol>
+    <div class="row mb-4">
+        <div class="col-md-8">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item active">List Thương Hiệu</li>
+            </ol>
+        </div>
+    </div>
+    <hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="UpdateCongDung">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="CongDungId" />
+            <div class="form-group">
+                <label asp-for="CongDungThuoc" class="control-label"></label>
+                <input asp-for="CongDungThuoc" class="form-control" />
+                <span asp-validation-for="CongDungThuoc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

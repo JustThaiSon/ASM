@@ -1,0 +1,85 @@
+﻿@model ASM.ViewModels.RegisterViewModel
+@using ASM.Entities.Enum
+@{
+	ViewData["Title"] = "Login";
+	Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Your Website Title</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+</head>
+<body>
+	<div class="row d-flex align-items-center justify-content-center">
+		<div class="col-md-3 card p-3">
+			<h2 class="text-center text-info">Resgister</h2>
+			<form asp-action="Register" method="post">
+				<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+				<div class="mb-1">
+					<label asp-for="Name"></label>
+					<input asp-for="Name" class="form-control" />
+					<span asp-validation-for="Name" class="text-danger"></span>
+				</div>
+				<div class="mb-1">
+					<label asp-for="Email"></label>
+					<input asp-for="Email" class="form-control" />
+					<span asp-validation-for="Email" class="text-danger"></span>
+				</div>
+				<div class="mb-1">
+					<label asp-for="UserName"></label>
+					<input asp-for="UserName" class="form-control" />
+					<span asp-validation-for="UserName" class="text-danger"></span>
+				</div>
+				<div class="mb-3">
+					<label asp-for="Gender"></label>
+					<select asp-for="Gender" class="form-control">
+						<option value="">Select Gender</option>
+						<option value="@GenderMenu.Nam">Nam</option>
+						<option value="@GenderMenu.Nữ">Nữ</option>
+						<option value="@GenderMenu.Khác">Khác</option>
+					</select>
+					<span asp-validation-for="Gender" class="text-danger"></span>
+				</div>
+				<div class="mb-1">
+					<label asp-for="Password"></label>
+					<input asp-for="Password" class="form-control" />
+					<span asp-validation-for="Password" class="text-danger"></span>
+				</div>
+				<div class="mb-1">
+					<label asp-for="ConfirmPassword"></label>
+					<input asp-for="ConfirmPassword" class="form-control" />
+					<span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+				</div>
+				<div class="mb-1">
+					<label asp-for="Address"></label>
+					<input asp-for="Address" class="form-control" row="2" />
+					<span asp-validation-for="Address" class="text-danger"></span>
+				</div>
+
+				<div class="row">
+					<div class="col-8">
+						<a asp-action="Login" asp-route-returnurl="@ViewData["ReturnUrl"]" class="text-decoration-none float-start mt-2">Have account?</a>
+					</div>
+					<div class="col-4">
+						<input type="submit" value="Register" class="btn btn-primary btn-sm float-end" />
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+	<script src="/js/scripts.js"></script>
+	@section Scripts {
+		@{
+			await Html.RenderPartialAsync("_ValidationScriptsPartial");
+		}
+	}
+</body>
+</html>
+
